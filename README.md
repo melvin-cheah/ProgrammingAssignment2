@@ -1,3 +1,14 @@
+### Result
+The original README follows this section. This *Result* section documents
+this specific submission.
+
+- cacheMatrix.R stores the answer.
+- Test1.R is provided to show testing of basic functionality
+-- Also provides benchmarking of non-cached and cached run times
+-- Benchmarking requires 'microbenchmark' package
+- Test2.R tests that two cacheMatrix objects don't have their
+  environments clashing.
+
 ### Introduction
 
 This second programming assignment will require you to write an R
