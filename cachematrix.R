@@ -60,6 +60,7 @@ makeCacheMatrix <- function(x = matrix()) {
 #
 # x         -  cacheMatrix object to pass in and solve
 # msg_ena   -  If TRUE, will print debug messages (default=TRUE)
+#              Turning off messages will allow more correct benchmarking
 cacheSolve <- function(x, msg_ena=TRUE, ...) {
    # Get the inverse stored in the cacheMatrix object.
    x_inv <- x$getinv()
